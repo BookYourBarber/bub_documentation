@@ -13,7 +13,6 @@
 
 
 ## Introduction
-<sup>[[1]]()</sup>
 This research document focuses on rate limiting and throttling as essential techniques for maintaining API security and preventing abuse or overload. 
 <br>
 
@@ -44,9 +43,9 @@ For Rate Limiting to work you need to specify following parameters:
 
 Throttling in API management involves controlling the rate of requests made to an API server to prevent overload and ensure optimal performance. It can be achieved through mechanisms such as regulating request frequency, introducing delays between requests, and using algorithms like the token-bucket algorithm. Throttling helps manage traffic bursts, prevent abuse, and maintain fair resource distribution. By implementing throttling, API providers can strike a balance between meeting visitor needs and ensuring server stability.
 
-![Rate Limiting](./imgs/api-throttling-diagram.png)
+![Throttling](./imgs/api-throttling-diagram.png)
 
-*Throttling diagram <sup>[[4]](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg)</sup>*
+*Throttling diagram <sup>[[2]](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg)</sup>*
 
 ## Why Implement Rate Limiting and Throttling?
 
@@ -54,7 +53,7 @@ By implementing rate limiting and throttling, organizations can effectively mana
 
 - **Preventing Abuse:** Rate limiting and throttling deter malicious users or automated scripts from overwhelming the API with excessive requests.
 - **Resource Protection:** By controlling request volumes, APIs ensure fair distribution of resources among clients and protect their servers from being overwhelmed.
-- **Reducing DDoS Attacks:** Rate limiting and throttling can help reduce the impact of ***Distributed Denial-of-Service (DDoS)*** <sup>[[5]](https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/)</sup> attacks by limiting request rates.
+- **Reducing DDoS Attacks:** Rate limiting and throttling can help reduce the impact of ***Distributed Denial-of-Service (DDoS)*** <sup>[[3]](#ddos)</sup> attacks by limiting request rates.
 - **Optimal Performance:** By maintaining a consistent level of service, rate limiting and throttling ensure that API performance remains stable, even during high-demand periods.
 
 ## Why not implement Rate Limiting and Throttling
@@ -87,15 +86,11 @@ Rate limiting and throttling are crucial components of API security and performa
 
 ## References
 
-> [1] <a name="meesters-2018"></a> The DOT Framework - ICT research methods. (2021, July). https://ictresearchmethods.nl/The_DOT_Framework
-
 > [1] <a name="rate-limiting-diagram"></a> Rate Limiting diagram - Tibco: https://www.tibco.com/sites/tibco/files/media_entity/2021-04/rate-limiting-diagram.svg
 
-<!-- > [2] [Rate limiting and throttling](https://www.achieveinternet.com/post/api-throttling-vs-rate-limiting) -->
+> [2] <a name="throttling-diagram"></a> Throttling diagram - Tibco: https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg
 
-> [3] Rate limiting diagram: [https://www.tibco.com/sites/tibco/files/media_entity/2021-04/rate-limiting-diagram.svg](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/rate-limiting-diagram.svg)
-
-> [4] Throttling diagram [https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg)
+> [3] <a name="ddos"></a> DDoS explanation - CloudFlare: https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/
 
 
 
