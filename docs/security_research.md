@@ -13,11 +13,11 @@
 
 
 ## Introduction
-
+<sup>[[1]]()</sup>
 This research document focuses on rate limiting and throttling as essential techniques for maintaining API security and preventing abuse or overload. 
 <br>
 
-Even with security measures in place, there has been a significant surge of 681% in malicious API attacks in 2021. It is predicted that these attacks will become the primary method of exploitation in 2022. To strengthen your security measures, it is essential to focus on enhancing your API management. Two important aspects of API management are API throttling and rate-limiting. <sup>[[2]](#1-the-dot-framework---ict-research-methods)</sup>
+Even with security measures in place, there has been a significant surge of 681% in malicious API attacks in 2021. It is predicted that these attacks will become the primary method of exploitation in 2022. To strengthen your security measures, it is essential to focus on enhancing your API management. Two important aspects of API management are API throttling and rate-limiting. 
 <br>
 
 ## What is Rate Limiting and Throttling?
@@ -36,7 +36,7 @@ For Rate Limiting to work you need to specify following parameters:
 
 ![Rate Limiting](./imgs/rate-limiting-diagram.png)
 
-*Rate Limiting diagram <sup>[[3]](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/rate-limiting-diagram.svg)</sup>*
+*Rate Limiting diagram <sup>[[1]](#rate-limiting-diagram)</sup>*
 
 
 
@@ -86,7 +86,10 @@ Selecting the appropriate alternative should consider specific requirements, usa
 Rate limiting and throttling are crucial components of API security and performance management. By implementing these techniques, APIs can prevent abuse, protect resources, and ensure optimal performance. Adhering to the principles of the DOT Framework, developers can employ rate limiting and throttling strategies effectively.
 
 ## References
-<!-- > [1] <a name="DOT_Framework">[The DOT Framework - ICT research methods](https://ictresearchmethods.nl/The_DOT_Framework)</a> -->
+
+> [1] <a name="meesters-2018"></a> The DOT Framework - ICT research methods. (2021, July). https://ictresearchmethods.nl/The_DOT_Framework
+
+> [1] <a name="rate-limiting-diagram"></a> Rate Limiting diagram - Tibco: https://www.tibco.com/sites/tibco/files/media_entity/2021-04/rate-limiting-diagram.svg
 
 <!-- > [2] [Rate limiting and throttling](https://www.achieveinternet.com/post/api-throttling-vs-rate-limiting) -->
 
