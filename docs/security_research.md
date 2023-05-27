@@ -45,7 +45,7 @@ Throttling in API management involves controlling the rate of requests made to a
 
 ![Throttling](./imgs/api-throttling-diagram.png)
 
-*Throttling diagram <sup>[[2]](https://www.tibco.com/sites/tibco/files/media_entity/2021-04/api-throttling-diagram.svg)</sup>*
+*Throttling diagram <sup>[[2]](#throttling-diagram)</sup>*
 
 ## Why Implement Rate Limiting and Throttling?
 
