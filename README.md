@@ -25,7 +25,7 @@
  ## 1. Web application
 
  ## 2. Software quality
-
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BookYourBarber_bub_appointment_api&metric=coverage)](https://sonarcloud.io/summary/new_code?id=BookYourBarber_bub_appointment_api)
  ## 3. Agile method
 
  ## 4. CI/CD
