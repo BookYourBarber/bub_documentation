@@ -6,7 +6,7 @@
     - [1. What is Rate Limiting?](#1-what-is-rate-limiting)
     - [2. What is Throttling?](#2-what-is-throttling)
   - [Why Implement Rate Limiting and Throttling?](#why-implement-rate-limiting-and-throttling)
-  - [Why not implement Rate Limiting and Throttling](#why-not-implement-rate-limiting-and-throttling)
+  - [The possible negatives](#the-possible-negatives)
   - [Possible alternatives to Rate Limiting and Throttling](#possible-alternatives-to-rate-limiting-and-throttling)
   - [Conclusion](#conclusion)
   - [References](#references)
@@ -41,7 +41,7 @@ For Rate Limiting to work you need to specify following parameters:
 
 ### 2. What is Throttling?
 
-Throttling in API management involves controlling the rate of requests made to an API server to prevent overload and ensure optimal performance. It can be achieved through mechanisms such as regulating request frequency, introducing delays between requests, and using algorithms like the token-bucket algorithm. Throttling helps manage traffic bursts, prevent abuse, and maintain fair resource distribution. By implementing throttling, API providers can strike a balance between meeting visitor needs and ensuring server stability.
+Throttling in API management involves controlling the rate of requests made to an API server to prevent overload and ensure optimal performance. It can be achieved through mechanisms such as regulating request frequency, introducing delays between requests. Throttling helps manage traffic bursts, prevent abuse, and maintain fair resource distribution. By implementing throttling, API providers can strike a balance between meeting visitor needs and ensuring server stability.
 
 ![Throttling](./imgs/api-throttling-diagram.png)
 
@@ -56,7 +56,7 @@ By implementing rate limiting and throttling, organizations can effectively mana
 - **Reducing DDoS Attacks:** Rate limiting and throttling can help reduce the impact of ***Distributed Denial-of-Service (DDoS)*** <sup>[[3]](#ddos)</sup> attacks by limiting request rates.
 - **Optimal Performance:** By maintaining a consistent level of service, rate limiting and throttling ensure that API performance remains stable, even during high-demand periods.
 
-## Why not implement Rate Limiting and Throttling
+## The possible negatives
 
 While rate limiting and throttling can provide several benefits to API management, there are also considerations for why they may not be implemented in certain scenarios:
 
@@ -82,7 +82,7 @@ Selecting the appropriate alternative should consider specific requirements, usa
 
 ## Conclusion
 
-Rate limiting and throttling are crucial components of API security and performance management. By implementing these techniques, APIs can prevent abuse, protect resources, and ensure optimal performance. Adhering to the principles of the DOT Framework, developers can employ rate limiting and throttling strategies effectively.
+Rate limiting and throttling are crucial components of API security and performance management. By implementing these techniques, APIs can prevent abuse, protect resources, and ensure optimal performance.
 
 ## References
 
