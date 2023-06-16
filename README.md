@@ -53,7 +53,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/web-application-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -87,7 +87,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/software-quality-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -115,7 +115,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/agile-method-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -146,7 +146,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/cd-cd-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -171,7 +171,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/cultural-differences-and-ethics-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -205,7 +205,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/requirements-and-design-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -231,7 +231,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/business-processes-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -271,6 +271,6 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>adsdas</td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/professional-proof.md">here</a></td>
   </tr>
 </table>
