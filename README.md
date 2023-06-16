@@ -80,9 +80,9 @@ You can see a list of learning outcomes and their explanation [here](./learning_
         <p>
           To address code quality, I integrated Sonar for code analysis in both the frontend and backend repositories. Sonar performed scans to identify bugs, code smells, and vulnerabilities, providing valuable insights into improving the overall code quality. Additionally, Sonar was implemented within the CI (Continuous Integration) pipeline, specifically in Git actions. This allowed for automatic monitoring of code quality with each push or merge to the main branch, enabling timely identification and resolution of any issues.
         </p>
-        <p>
+        <!-- <p>
           Additionally, I implemented ESLint within the CI (Continuous Integration) pipeline, specifically in Git actions. This enabled automatic code analysis with each push or merge to the main branch, allowing for early detection and resolution of any code quality issues.
-        </p>
+        </p> -->
     </td>
   </tr>
   <tr>
@@ -140,13 +140,13 @@ You can see a list of learning outcomes and their explanation [here](./learning_
           For continuous integration and deployment, I utilized GitHub Actions as my chosen solution. Within each repository, I set up a GitHub Actions workflow to ensure that the application builds successfully and that all tests pass. This automated process helped maintain code quality and ensured that changes were properly validated before release.
         </p>
         <p>
-          To further enhance the quality gate, I integrated SonarCloud within the frontend project's pipeline. SonarCloud analyzed the codebase for bugs and enforced a minimum code coverage threshold of 50%. If any issues were identified or if the coverage fell below the defined limit, the pipeline would be blocked, preventing the release of flawed code.
+          To further enhance the quality gate, I integrated SonarCloud within the frontend project's pipeline. SonarCloud analyzed the codebase for bugs and enforced a minimum code coverage threshold of 80%. If any issues were identified or if the coverage fell below the defined limit, the pipeline would be blocked, preventing the release of flawed code.
         </p>
     </td>
   </tr>
   <tr>
     <th><strong>Proof</strong></th>
-    <td>See further explanation of the learning outcome <a href="docs/proof/cd-cd-proof.md">here</a></td>
+    <td>See further explanation of the learning outcome <a href="docs/proof/ci-cd-proof.md">here</a></td>
   </tr>
 </table>
 
@@ -164,9 +164,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   <tr>
     <th><strong>Explanation</strong></th>
     <td>
-        <p>
-          See <a href="docs/proof/9-ethics.md">this article</a>.
-        </p>
+        <p>ads</p>
     </td>
   </tr>
   <tr>
@@ -189,18 +187,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   <tr>
     <th><strong>Explanation</strong></th>
     <td>
-        <p>
-          I have started the individual project by formulation a project idea. I then started to design the user stories, and an accompanying C4-model of the project. The same was done for the group project.
-        </p>
-        <p>
-          The Settings API was made with an API contract in mind. The API contract is presented in <code>yml</code> format. See <a href="docs/12-apidocs.md">here</a>.
-        </p>
-        <p>
-          During the group projects, after having reviewed the sprint with the stakeholders, we kept refining the user stories and acceptation criteria based on the feedback they gave us. The C4-Model remained roughly the same throughout the project.
-        </p>
-        <p>
-          In my individual projects, and admittedly the GP as well, I could have formulated my user stories better. I should have split them up more and made them testable by formulating very concise acceptation criteria with clear data to base the tests upon. This will be improved upon with future projects.
-        </p>
+        <p>sda</p>
     </td>
   </tr>
   <tr>
@@ -225,7 +212,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
     <th><strong>Explanation</strong></th>
     <td>
         <p>
-          See <a href="docs/proof/10-user-flow.md">here</a> and <a href="docs/proof/13-business-process.md">here</a>.
+            sda
         </p>
     </td>
   </tr>
@@ -250,22 +237,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
     <th><strong>Explanation</strong></th>
     <td>
         <p>
-          As a team, and to a smaller degree in my IP, I work with the Agile Methodology to work together. See <a href="docs/proof/5-agile-group-project.md">here</a>.
-        </p>
-        <p>
-          In GP, I acted as the communications representative of the group. I planned the sprint review dates and informed the group of my communication with Mediaan.
-        </p>
-        <p>
-          In GP, we made a Code of Conduct to which we adhered to whenever there was a disagreements.
-        </p>
-        <p>
-          As a group we managed the stakeholders' expectations by giving them a sneak peak before the sprint review. During the sprint, we had regular contact with the stakeholders when we had any questions or confusions.
-        </p>
-        <p>
-          As a group, we were able to say no to our stakeholder. We made it clear when we thought it would be impossible to complete a certain set of requirements/user stories. One notable 'no' was at the end when the product owner demanded every user story to be completely done. In hindsight we think that this was a test by Mediaan to see if we were able to say no.
-        </p>
-        <p>
-          I regularly (at least once every two weeks) went to the teacher asking for feedback. This feedback was posted on Feedpulse. This moment was also used as a "milestone" to inform the teacher of my doings and experience, to convince them that I am proficient enough to go to the next semester.
+         sd
         </p>
     </td>
   </tr>
