@@ -74,6 +74,38 @@ describe("Create an appointment", () =>{
 
 Jest provided a robust and user-friendly environment for writing and executing tests, while SuperTest allowed me to simulate HTTP requests and test the functionality of my API endpoints. I set up the testing environment by configuring Jest with appropriate configurations, including setting up test suites, defining test cases, and asserting expected outcomes. Using SuperTest, I could send HTTP requests to my API endpoints and validate the responses, ensuring the correct functioning of my Node.js application.
 
+## Pipeline setup
+I set up a CI/CD pipeline for my backend using GitHub Actions. The pipeline is triggered on every push to the master branch. The pipeline consists of five steps:
 
-### SQLite 
-During the testing phase of my backend, I opted to use SQLite as a temporary database instead of my main production database. SQLite provided a lightweight and efficient solution for creating an in-memory database, allowing me to isolate and perform tests on the data layer of my application. By using SQLite for testing purposes, I ensured that my tests were independent of the production database and minimized the risk of interfering with live data. This approach facilitated quicker test execution and provided a controlled environment for verifying the accuracy and reliability of my backend functionality.
+```yaml
+name: CI / CD 
+
+on:
+  push:
+    branches:
+      - master
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v3
+      
+      - name: Install dependencies
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+        
+      - name: Install ci
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+        
+      - name: SonarCloud run
+        uses: sonarsource/sonarcloud-github-action@master
+        
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+```
