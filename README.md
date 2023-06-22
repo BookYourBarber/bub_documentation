@@ -164,7 +164,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   <tr>
     <th><strong>Explanation</strong></th>
     <td>
-        <p>ads</p>
+        <p> The development of TrackIO involved a deep recognition of cultural differences and ethical aspects of software engineering. It demonstrates our commitment to develop not only functional software but also software that is respectful of user rights, cultural norms, and societal expectations.</p>
     </td>
   </tr>
   <tr>
@@ -187,7 +187,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
   <tr>
     <th><strong>Explanation</strong></th>
     <td>
-        <p>sda</p>
+        <p>The learning outcome of analyzing requirements, elaborating designs, and validating them using multiple test techniques is demonstrated. The document showcases the adherence to strict technical requirements set by IO Digital, including considerations for accessibility, performance, and security. UI/UX prototypes were extensively reviewed, approved, and implemented based on feedback. A collaborative effort was made to create a Wi-Fi Tracking design, which involved the participation of IO's developers and a thorough review process. Overall, the proof exemplifies the application of various test techniques to ensure the quality and functionality of the requirements and designs.</p>
     </td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ You can see a list of learning outcomes and their explanation [here](./learning_
     <th><strong>Explanation</strong></th>
     <td>
         <p>
-            sda
+            The provided document presents an analysis of a proposed office communication application and its impact on the business process of finding a colleague within the office. It highlights the challenges faced in the existing process and demonstrates how the app simplifies and accelerates the task, resulting in significant time savings and improved productivity. By addressing the pain points and providing real-time information, the app enhances the overall office work experience, leading to a smoother and more efficient workflow for employees.
         </p>
     </td>
   </tr>
@@ -237,12 +237,11 @@ You can see a list of learning outcomes and their explanation [here](./learning_
     <th><strong>Explanation</strong></th>
     <td>
         <p>
-         sd
+        The learning outcome "I act in a professional manner during software development and learning" highlights the importance of seeking feedback and incorporating it into my progress. In the past, I made the mistake of not asking for feedback during one entire sprint, which had a negative impact on my progress. Moving forward, I understand the significance of consistently seeking feedback, especially when working with agile methods. 
+        </p>
+        <p>
+        I aim to improve by actively documenting my steps and utilizing tools like FeedPulse to provide and receive feedback. Having a record of what I've done and the discussions we've had during feedback sessions is incredibly helpful. By actively participating in feedback sessions and using the feedback to drive my growth, I demonstrate professionalism and enhance my effectiveness in software development and learning.
         </p>
     </td>
-  </tr>
-  <tr>
-    <th><strong>Proof</strong></th>
-    <td>See further explanation of the learning outcome <a href="docs/proof/professional-proof.md">here</a></td>
   </tr>
 </table>
